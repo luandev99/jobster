@@ -96,24 +96,6 @@ Jobster.Backend/
 
 ---
 
-## 🗃️ Estrutura do Banco (PostgreSQL)
-
-### Principais Tabelas:
-
-```sql
-users(id, name, email, password_hash, role, created_at)
-
-services(id, user_id, title, description, type, created_at)
-
-appointments(id, service_id, client_id, date, status, created_at)
-
-chats(id, service_id, client_id, professional_id, created_at)
-
-messages(id, chat_id, sender_id, content, sent_at)
-```
-
----
-
 ## 📌 Regras de Negócio
 
 - Apenas profissionais podem cadastrar serviços
