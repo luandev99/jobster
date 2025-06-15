@@ -23,6 +23,9 @@
 - [TailwindCSS](https://tailwindcss.com/)
 - [ShadCN UI](https://ui.shadcn.dev/)
 - [React Router](https://reactrouter.com/)
+- [SWR](https://swr.vercel.app/pt-BR/) – parcial
+- [Axios](https://axios-http.com/)
+- [SignalR](https://www.npmjs.com/package/react-signalr)
 
 ### ⚙️ Backend
 
